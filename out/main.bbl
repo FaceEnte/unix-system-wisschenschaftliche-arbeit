@@ -1,0 +1,253 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ArtOfUnixProgramming}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9b6d934baf396a5b811703e547fb4b38}{%
+           family={Raymond},
+           familyi={R\bibinitperiod},
+           given={Eric\bibnamedelima Steven},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{fullhash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{fullhashraw}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{bibnamehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{authorbibnamehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{authornamehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{authorfullhash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{authorfullhashraw}{9b6d934baf396a5b811703e547fb4b38}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{978-0-13-142901-7}
+      \field{langid}{english}
+      \field{title}{The {{Art}} of {{Unix Programming}}}
+      \field{year}{2003}
+      \verb{file}
+      \verb /Users/byteme/Zotero/storage/KP2RQII9/Raymond - 2003 - The Art of Unix Programming.pdf
+      \endverb
+      \keyw{unix}
+    \endentry
+    \entry{ModernOS}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=2414455c999bc471f803cd14fdea939d}{%
+           family={Tanenbaum},
+           familyi={T\bibinitperiod},
+           given={Andrew\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=02997b67b6ffe1ea8e813dd2f362f33d}{%
+           family={Bos},
+           familyi={B\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, New Jersey}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{da75650913b9d6ae1cb262f4e7389a5c}
+      \strng{fullhash}{da75650913b9d6ae1cb262f4e7389a5c}
+      \strng{fullhashraw}{da75650913b9d6ae1cb262f4e7389a5c}
+      \strng{bibnamehash}{da75650913b9d6ae1cb262f4e7389a5c}
+      \strng{authorbibnamehash}{da75650913b9d6ae1cb262f4e7389a5c}
+      \strng{authornamehash}{da75650913b9d6ae1cb262f4e7389a5c}
+      \strng{authorfullhash}{da75650913b9d6ae1cb262f4e7389a5c}
+      \strng{authorfullhashraw}{da75650913b9d6ae1cb262f4e7389a5c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5}
+      \field{isbn}{978-1-292-45966-0}
+      \field{langid}{english}
+      \field{title}{Modern {{Operating Systems}}}
+      \field{year}{2024}
+      \keyw{Betriebssystem,BETRIEBSSYSTEME,CASE STUDIES (DOCUMENT TYPE),DATEISYSTEMVERWALTUNG (BETRIEBSSYSTEME),FALLSTUDIEN (DOKUMENTENTYP),FILE SYSTEMS MANAGEMENT (OPERATING SYSTEMS),OPERATING SYSTEMS,Operating systems (Computers),PROCESS MANAGEMENT (OPERATING SYSTEMS),PROZESSVERWALTUNG + PROZESSMANAGEMENT (BETRIEBSSYSTEME),SPEICHERORGANISATION + SPEICHERVERWALTUNG (BETRIEBSSYSTEME),STORAGE MANAGEMENT + MEMORY MANAGEMENT (OPERATING SYSTEMS),Systemes d'exploitation (ordinateurs),SYSTEMPROGRAMMIERUNG (BETRIEBSSYSTEME),SYSTEMS PROGRAMMING (OPERATING SYSTEMS)}
+    \endentry
+    \entry{WSL}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f8c427fa3c9be2de5ce9b3e50e6cf886}{%
+           family={Anonym},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8c427fa3c9be2de5ce9b3e50e6cf886}
+      \strng{fullhash}{f8c427fa3c9be2de5ce9b3e50e6cf886}
+      \strng{fullhashraw}{f8c427fa3c9be2de5ce9b3e50e6cf886}
+      \strng{bibnamehash}{f8c427fa3c9be2de5ce9b3e50e6cf886}
+      \strng{authorbibnamehash}{f8c427fa3c9be2de5ce9b3e50e6cf886}
+      \strng{authornamehash}{f8c427fa3c9be2de5ce9b3e50e6cf886}
+      \strng{authorfullhash}{f8c427fa3c9be2de5ce9b3e50e6cf886}
+      \strng{authorfullhashraw}{f8c427fa3c9be2de5ce9b3e50e6cf886}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Overview of the Windows Subsystem for Linux documentation.}
+      \field{journaltitle}{Microsoft Docs}
+      \field{langid}{american}
+      \field{note}{Accessed: 2025-04-05}
+      \field{title}{Windows {{Subsystem}} for {{Linux Documentation}}}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/byteme/Zotero/storage/7E2U5GYJ/mattwojo - Windows Subsystem for Linux Documentation.pdf;/Users/byteme/Zotero/storage/YSU8VLS9/wsl.html
+      \endverb
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/windows/wsl/
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/windows/wsl/
+      \endverb
+    \endentry
+    \entry{FreeBSDOS}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=1ab3904c08ec1fd9ce68dba66522b348}{%
+           family={McKusick},
+           familyi={M\bibinitperiod},
+           given={Marshall\bibnamedelima Kirk},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=acf7af228e0d62c3a80360b69777caad}{%
+           family={{Neville-Neil}},
+           familyi={N\bibinitperiod},
+           given={George\bibnamedelima V.},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=0849053ba3979ff59dc2205a5149b316}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelimb N.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{2591117704a9d71114205b6ca1505a87}
+      \strng{fullhash}{3a7b50c464b1ec5c0129e2091241d2b8}
+      \strng{fullhashraw}{3a7b50c464b1ec5c0129e2091241d2b8}
+      \strng{bibnamehash}{3a7b50c464b1ec5c0129e2091241d2b8}
+      \strng{authorbibnamehash}{3a7b50c464b1ec5c0129e2091241d2b8}
+      \strng{authornamehash}{2591117704a9d71114205b6ca1505a87}
+      \strng{authorfullhash}{3a7b50c464b1ec5c0129e2091241d2b8}
+      \strng{authorfullhashraw}{3a7b50c464b1ec5c0129e2091241d2b8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{978-0-321-96897-5}
+      \field{langid}{english}
+      \field{title}{The Design and Implementation of the {{FreeBSD}} Operating System}
+      \field{year}{2015}
+      \verb{file}
+      \verb /Users/byteme/Zotero/storage/PPL4TDKN/McKusick et al. - 2015 - The design and implementation of the FreeBSD operating system.pdf
+      \endverb
+    \endentry
+    \entry{OSConcept}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=525ecdcf12996b3d68e3c71d7526bf35}{%
+           family={Silberschatz},
+           familyi={S\bibinitperiod},
+           given={Abraham},
+           giveni={A\bibinitperiod}}}%
+        {{hash=64b4bcc3ca6dc2409739b5999e3b1482}{%
+           family={Galvin},
+           familyi={G\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=8f10d7fda1274429a894fc713a738d8a}{%
+           family={Gagne},
+           familyi={G\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, New Jersey}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{59c006bedfd0408796f05183940decf3}
+      \strng{fullhash}{1a1b532e5320a188a4df84c7167b04cd}
+      \strng{fullhashraw}{1a1b532e5320a188a4df84c7167b04cd}
+      \strng{bibnamehash}{1a1b532e5320a188a4df84c7167b04cd}
+      \strng{authorbibnamehash}{1a1b532e5320a188a4df84c7167b04cd}
+      \strng{authornamehash}{59c006bedfd0408796f05183940decf3}
+      \strng{authorfullhash}{1a1b532e5320a188a4df84c7167b04cd}
+      \strng{authorfullhashraw}{1a1b532e5320a188a4df84c7167b04cd}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{10th edition of Operating System Concepts by Abraham Silberschatz, Peter B. Galvin, and Greg Gagne.}
+      \field{edition}{10}
+      \field{isbn}{978-1-118-06333-0}
+      \field{langid}{english}
+      \field{title}{Operating {{System Concepts}}}
+      \field{year}{2018}
+      \verb{file}
+      \verb /Users/byteme/Zotero/storage/8KTT7XBS/Silberschatz et al. - 2018 - Operating System Concepts.pdf
+      \endverb
+      \keyw{operating system}
+    \endentry
+    \entry{interviewNH}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b8da51060fcbb65346964ec5cc15dc3b}{%
+           family={{von Niederhäusern}},
+           familyi={v\bibinitperiod},
+           given={Peter\bibnamedelima Alfred},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8da51060fcbb65346964ec5cc15dc3b}
+      \strng{fullhash}{b8da51060fcbb65346964ec5cc15dc3b}
+      \strng{fullhashraw}{b8da51060fcbb65346964ec5cc15dc3b}
+      \strng{bibnamehash}{b8da51060fcbb65346964ec5cc15dc3b}
+      \strng{authorbibnamehash}{b8da51060fcbb65346964ec5cc15dc3b}
+      \strng{authornamehash}{b8da51060fcbb65346964ec5cc15dc3b}
+      \strng{authorfullhash}{b8da51060fcbb65346964ec5cc15dc3b}
+      \strng{authorfullhashraw}{b8da51060fcbb65346964ec5cc15dc3b}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{ngerman}
+      \field{month}{3}
+      \field{title}{{Experteninterview über UNIX-System und moderne Betriebssysteme}}
+      \field{year}{2025}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

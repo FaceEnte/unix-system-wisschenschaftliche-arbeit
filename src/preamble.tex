@@ -1,0 +1,78 @@
+%! Author = byteme
+%! Date = 11.05.2025
+
+%! ------------------------------------------------------------------------------
+%! Language and Encoding
+%! ------------------------------------------------------------------------------
+\usepackage[utf8]{inputenc}                           % Input encoding (UTF-8)
+\usepackage[german]{babel}                            % German language support
+\usepackage[none]{hyphenat}                           % Disable automatic hyphenation
+\usepackage[backend=biber,style=ieee]{biblatex}       % Bibliography settings
+\addbibresource{resources/main.bib}                   % Bibliography location
+
+%! ------------------------------------------------------------------------------
+%! Font and Typography
+%! ------------------------------------------------------------------------------
+\usepackage{helvet}                                   % Use Helvetica font
+\renewcommand{\familydefault}{\sfdefault}             % Set sans-serif as default
+\setlength{\parindent}{0pt}                           % Disable paragraph indentation
+\setlength{\parskip}{7pt}                             % Set paragraph spacing
+\sloppy                                               % Improve line breaking
+\raggedright                                          % Left-align all text
+
+%! ------------------------------------------------------------------------------
+%! Page Layout and Geometry
+%! ------------------------------------------------------------------------------
+\usepackage{geometry}                                 % Customize page margins
+\geometry{left=2cm, right=2cm, top=2cm, bottom=2cm}
+
+%! ------------------------------------------------------------------------------
+%! Document Title and Author Info
+%! ------------------------------------------------------------------------------
+\usepackage{titling}                                  % Control over title block
+
+%! Custom subtitle command
+\newcommand{\subtitle}[1]{%
+  {\Large #1}
+}
+
+%! Custom author info block
+\newcommand{\authorinfo}[3]{%
+  \vfill
+  \begin{flushleft}
+  	\fontsize{11pt}{13pt}\selectfont
+    \textbf{Studiengang:} \hspace{0pt} #1 \\          % Study Program
+    \textbf{Author:} \hspace{31pt} #2 \\              % Author
+    \textbf{Datum:} \hspace{33pt} #3                  % Date
+  \end{flushleft}
+}
+
+%! ------------------------------------------------------------------------------
+%! PDF Output and Hyperlinks
+%! ------------------------------------------------------------------------------
+\usepackage{hyperref}                                 % Add clickable links and PDF metadata
+\hypersetup{
+  pdfborder = {0 0 0},                                % Remove borders around links
+  colorlinks=false                                    % No colored links
+}
+
+%! ------------------------------------------------------------------------------
+%! Figures, Pages, Lists
+%! ------------------------------------------------------------------------------
+\usepackage{pdfpages}                                 % Include external PDF pages
+\usepackage{enumitem}                                 % Better control of list environments
+
+%! ------------------------------------------------------------------------------
+%! Mathematics and Informatics
+%! ------------------------------------------------------------------------------
+\usepackage{amsmath}                                  % Advanced math typesetting
+\usepackage{amsfonts}                                 % Math fonts
+\usepackage{amssymb}                                  % Math symbols
+\usepackage{listings}                                 % Code listings (great for programming code)
+\usepackage{algorithm}
+\usepackage{algpseudocode}                            % For writing pseudocode algorithms
+
+%! ------------------------------------------------------------------------------
+%! Utility Packages
+%! ------------------------------------------------------------------------------
+\usepackage{xparse}                                   % More powerful command definitions

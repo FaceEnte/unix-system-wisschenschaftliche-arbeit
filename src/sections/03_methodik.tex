@@ -1,0 +1,38 @@
+\section{Methodisches Vorgehen}
+
+\subsection{Literaturauswahl und Vergleichsansatz}
+
+Zur Beantwortung der Forschungsfrage wurde eine umfassende Literaturrecherche durchgeführt. Die Auswahlkriterien umfassten Aktualität, Relevanz für das Thema \glqq UNIX und moderne Betriebssysteme\grqq, sowie wissenschaftliche Fundierung. Herangezogen wurden sowohl klassische Standardwerke zur Betriebssystemtheorie als auch praxisorientierte Quellen, darunter:
+
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\item \textit{\glqq The Art of Unix Programming\grqq} \ von E.S. Raymond \cite{ArtOfUnixProgramming}
+	\item \textit{\glqq Modern Operating Systems\grqq} \ von A.S. Tanenbaum und H. Bos \cite{ModernOS}
+	\item \textit{\glqq Operating System Concepts\grqq} \ von A. Silberschatz, P.B. Galvin und G. Gagne \cite{OSConcept}
+	\item \textit{\glqq The Design and Implementation of the FreeBSD Operating System\grqq} \ von M.K. McKusick, G.V. Neville-Neil und R.N.M. Watson \cite{FreeBSDOS}
+\end{itemize}
+
+Zusätzlich wurde die offizielle Dokumentation des Windows Subsystem for Linux (WSL) verwendet. \cite{WSL}
+
+Die Bewertung erfolgte durch einen systematischen Vergleich von Linux, macOS und Windows entlang zentraler UNIX-Prinzipien. Der Vergleich berücksichtigt technische Merkmale (z.B. Kernelarchitektur, Dateisysteme), aber auch nutzerorientierte Aspekte (z.B. Kommandozeilenverfügbarkeit, Konfigurierbarkeit, Tool-Kompatibilität).
+
+
+\subsection{Kriterien zur Bewertung von UNIX-Anteilen}
+
+Zur vergleichenden Analyse wurden folgende Bewertungskriterien verwendet:
+
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\item \textbf{Modularität}: Grad der Zerlegbarkeit in unabhängige Komponenten.
+	\item \textbf{Portabilität}: Möglichkeit der Nutzung auf verschiedenen Hardwareplattformen.
+	\item \textbf{Kommandozeileninteraktion}: Umfang und Tiefe der CLI-Unterstützung.
+	\item \textbf{POSIX-Kompatibilität}: Einhaltung standardisierter Schnittstellen.
+	\item \textbf{Toolphilosophie}: Vorhandensein spezialisierter, kombinierbarer Tools.
+	\item \textbf{Architekturprinzipien}: z.B. Monolithisch vs. Hybridkernel
+\end{itemize}
+
+Diese Kriterien wurden auf die drei betrachteten Betriebssysteme angewendet. Die Ergebnisse wurden mithilfe der Literatur und eines Experteninterviews ergänzt und validiert.
+
+Das Interview mit Herrn von Niederhäusern, der über Berufserfahrung mit diesen Systemen verfügt, lieferte wichtige praxisnahe Perspektiven. Beispielsweise wurde darauf hingewiesen, dass Windows heute über das Windows Subsystem for Linux (WSL) bewusste UNIX-nahe Funktionalitäten integriert, um Entwicklern eine vertraute Umgebung zu bieten. Ebenso wurde betont, dass die ursprüngliche UNIX-Philosophie in heutigen Systemen teils verwässert sei, jedoch modularer Aufbau und Automatisierung zunehmend relevanter würden, gerade im Kontext von Container, Cloud und DevOps. \cite{interviewNH}
+
+Das Interview wurde transkribiert und zentrale Aussagen wurden den Bewertungskriterien zugeordnet und ergänzen die Literaturbasis durch erfahrungsbasierte Einschätzungen.

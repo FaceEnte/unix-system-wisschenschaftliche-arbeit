@@ -1,0 +1,19 @@
+\section{UNIX und seine Relevanz für moderne Betriebssysteme}
+
+
+\subsection{Kurzüberblick: Was ist UNIX?}
+
+Das Betriebssystem UNIX wurde Anfang der 1970er Jahren bei den Bell Laboratories von AT\&T entwickelt. Ziel war es, ein portables, mehrbenutzerfreundliches und multitaskingfähiges Betriebssystem zu schaffen. Die daraus entstandene UNIX-Philosophie beinhaltet zentrale Prinzipien wie Modularität, Wiederverwendbarkeit, einfache Schnittstellen sowie das Paradigma \glqq Everything is a File\grqq. Diese Ideen prägten zahlreiche spätere Betriebssysteme. UNIX war eines der ersten Systeme, das vollständig in der Programmiersprache C geschrieben wurde, was die Portabilität auf verschiedene Hardwareplattformen stark vereinfachte.
+
+UNIX wurde über die Jahre vielfach weiterentwickelt und in verschiedene Varianten verbreitet, darunter System V, BSD (Berkeley Software Distribution) sowie proprietäre und kommerzielle Derivate wie AIX, Solaris oder HP-UX. Aus dem BSD-Zweig entstanden auch moderne Open-Source-Betriebssysteme wie FreeBSD und NetBSD. Zudem beeinflusste UNIX zahlreiche \glqq UNIX-like\grqq-Systeme \footnote{UNIX-like-Systeme sind von der UNIX-Philosophie inspiriert, folgen jedoch nicht zwingend einer vollständigen UNIX-Implementierung. Sie sind daher in der Regel weder UNIX- noch POSIX-zertifiziert.} wie Linux, das heute eine zentrale Rolle in der IT-Infrastruktur weltweit einnimmt.
+
+Auch im Interview mit Herrn von Niederhäusern wurde die Relevanz von UNIX bestätigt: \glqq UNIX ist mehr eine Philosophie als eine technische Implementierung [...] je länger, desto mehr natürlich relevant, weil die ganze Hyperscaler brauchen primär Linux [...] es hat sich bewährt.\grqq \ \cite{interviewNH}
+
+
+\subsection{Warum ist UNIX eine solide Grundlage?}
+
+Die Robustheit und Langlebigkeit der UNIX-Prinzipien ergeben sich aus ihrer strukturellen Klarheit und ihrer Fähigkeit, komplexe Systeme in einfache, verständliche Module zu zerlegen. UNIX setzt auf kleine, spezialisierte Programme, die über einfache Schnittstellen (meist über Standard-Eingaben und Standard-Ausgaben) miteinander kommunizieren. Diese Modularität fördert Wartbarkeit, Testbarkeit und Portabilität.
+
+Zudem ist UNIX skalierbar, von eingebetteten Systemen bis zu Grossrechnern, und bildet damit eine vielseitige Grundlage für unterschiedlichste Einsatzbereiche. Die POSIX-Norm (Portable Operating System Interface) standardisierte viele dieser Konzepte, was auch nicht-UNIX-Systemen wie Windows ermöglichte, kompatible Schnittstellen zu implementieren.
+
+Laut Herrn von Niederhäusern hat sich insbesondere die Modularität in modernen Infrastrukturen bewährt, etwa bei Docker, SeaGroups und Cloudsystemen: \glqq Die Modularität ist ein sehr relevantes Prinzip, gerade im Hinblick auf Hyperscaler [...] das ist nur möglich, wenn es modular ist.\grqq \ \cite{interviewNH}

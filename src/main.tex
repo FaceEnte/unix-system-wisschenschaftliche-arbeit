@@ -1,0 +1,82 @@
+%! Author = byteme
+%! Date = 11.05.2025
+
+%! Preamble
+\documentclass[a4paper, 11pt]{article}
+\input{preamble}
+
+%! Document
+\begin{document}
+
+    %! Title Page
+    \begin{titlepage}
+        \centering
+        \vspace*{120pt}
+        \LARGE UNIX-System - Die Grundlage der heutigen Betriebssysteme \par
+        \vspace{0.5cm}
+        \Large \subtitle{wissenschaftliche Arbeit} \par
+        \vfill
+        \authorinfo{BSc Data Engineering}{Denis Andrei Szabo}{\today}
+    \end{titlepage}
+    \newpage
+
+
+    %! Table of Contents
+    \tableofcontents
+    \newpage
+
+
+    %! Einleitung
+    \input{sections/01_einleitung}
+    \newpage
+
+    %! Unix und Relevanz
+    \input{sections/02_unix_und_relevanz}
+    \newpage
+
+    %! Methodik
+    \input{sections/03_methodik}
+    \newpage
+
+    %! Unix als Fundament
+    \input{sections/04_unix_als_fundament}
+    \newpage
+
+    %! Vergleich
+    \input{sections/05_vergleich}
+    \newpage
+
+    %! Zukunft
+    \input{sections/06_zukunft}
+    \newpage
+
+
+    %! Bibliography
+    \section{Bibliography}
+    \printbibliography[heading=none]
+    \nocite{*}
+    \newpage
+
+
+    %! Selbständigkeitserklärung
+    \section{Selbständigkeitserklärung}
+    Ich bestätige, dass ich die vorliegende Arbeit selbstständig und ohne Benutzung anderer als der im Literaturverzeichnis angegebenen Quellen und Hilfsmittel angefertigt habe.
+    Sämtliche Textstellen, die nicht von mir stammen, sind als Zitate gekennzeichnet und mit dem genauen Hinweis auf ihre Herkunft versehen.
+
+    \
+
+    Ort, Datum: \hspace{120pt} 4710 Balsthal, \today
+
+    \
+
+    Unterschrift:
+    \newpage
+
+
+    %! Appendix
+    \appendix
+    \section{Transkript des Interviews}
+    \input{appendix/transkript}
+
+
+\end{document}
