@@ -1,4 +1,4 @@
-# 🧠 Bachelor Thesis: Unix as the Foundation of Modern Operating Systems
+# 🧠 Thesis: Unix as the Foundation of Modern Operating Systems
 
 This repository contains my short thesis on **Unix** and its foundational role in the development of modern operating systems.
 The paper explores the historical significance of Unix, its design philosophy, and how its principles are reflected in contemporary systems like 
