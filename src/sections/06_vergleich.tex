@@ -1,3 +1,43 @@
 \section{Vergleich der UNIX-Anteile in modernen Betriebssysteme}
+
+Diese Kapitel untersucht die Gemeinsamkeiten und Unterschiede moderner Betriebssysteme in Bezug auf ihre UNIX-Bestandteile. Dabei liegt der Fokkus auf der
+Systemarchitektur, der Entwicklungsmethodik, sowie der praktischen Relevanz für Entwicklerinnen und Entwickler. Grundlage für diese Analyse bilden Fachliteraturen
+und ein Interview mit Herrn von Niederhäusern \cite{interviewNH}.
+
+
 \subsection{Gemeinsamkeiten und Unterschiede}
+
+Obwohl Linux, macOS und Windows unterschiedliche Wurzen haben, lassen sich insbesondere zwischen Linux und macOS viele Gemeinsamkeiten feststellen, die auf ihr
+UNIX-Erbe zurückzuführen sind. Beide Systeme unterstützen POSIX-Standards, verfügen über eine Shell-Umgebung, bieten weitgehende Kompatibilität mit UNIX-Tools und
+setzen auf das Prinzip \glqq Everything is a File\grqq \ \cite{ArtOfUnixProgramming, ModernOS, OSConcept}.
+
+macOS besitzt als zertifiziertes UNIX-System die enste technische Verbindung zur UNIX-Philosophie \cite{FreeBSDOS}. Es basiert auf BSD, einem klassichen
+UNIX-Derivate, und implementiert standardisierte UNIX-Schnittstellen vollständig. Linux hingegen ist nicht zertifiziert, erfüllt aber in der Praxis viele der
+gleichen Anforderungen und ist hochradig kompatibel mit UNIX-Anwendungen \cite{ModernOS, OSConcept}.
+
+Windows stellt hingegen eine Sonderrolle dar, es ist weder UNIX-basiert noch vollständig POSIX-konform. Trotzdem hat Microsoft viele Elemente aus der UNIX-Welt
+übernommen, beispielsweise mit dem Windows Subsystem for Linux, das es ermöglicht, native Linux Binaries unter Windows auszuführen \cite{WSL}. Auch Werkzeuge
+wie Git Bash, Windows Terminal und die PowerShell zeigen die Annäherung an UNIX-Konzepte. Dennoch bleibt das zugrunde liegende Systemdesing stark unterschiedlich,
+etwa in der Nutzung der Registry statt Konfigurationsdateien oder dem Fehlen eines nativen Paketmanagers \cite{interviewNH}.
+
+Herr von Niederhäusern beschreibt die Situation folgendermassen: %! Zitat
+
+
 \subsection{Einfluss auf Systemarchitekturen und Softwareentwicklung}
+
+Die UNIX-Philosophie hat die Art, wie Betriebssysteme konzipiert und Software entwickelt wird, massgeblich geprägt. Zentral sind Konzepte wie Modularität,
+textbasierte Schnittstellen, Skriptbarkeit und Wiederverwendbarkeit von Komponenten \cite{ArtOfUnixProgramming}.
+
+Bei Linux und macOS ist dieser Einfluss direkt sichtbar, beide Systeme setzten auf klare Trennung von Benutzer- und Kernel-Modus, auf einfache, kombinierbare Tools,
+sowie eine klare Prozesshierarchie \cite{ModernOS, FreeBSDOS}. Die Verwendung von Shell-Skripten, cronjobs und systemd (bzw. launchd bei macOS) illustrieren diese
+Prinzipien.
+
+Windows verfolgt traditionell einen stärker integrierten, GUI zentrierten Ansatz. Die Entwicklung der PowerShell und die Integration von WSL zeigen jedoch, dass
+auch hier zunehmend UNIX-artige Denkweisen einfliessen \cite{WSL, OSConcept}. Für die Softwareentwicklung bedeutet das eine grössere Vereinheitlichung über
+Plattformen hinweg. Entwickler nutzen heute plattformübergreifend Werkzeuge wie Git, Docker oder VSCode, alle stakr beeinflusst von UNIX-Standards.
+
+Auch Herr von Niederhäusern unterstreicht diesen Wandel: \glqq Die Trennung der Welten ist vorbei. Ich sehe Entwickler, die unter Windows mit WSL und Docker
+arbeiten und andere die auf dem Mac native UNIX-Tools einsetzten. UNIX ist nicht ott, es ist überall, in verschiedenen Gewändern\grqq \ \cite{interviewNH}.
+
+Zusammenfassend lässt sich sagen, dass UNIX-Anteile heute die Basis für viele essentielle Konzepte in moderner Betriebssystemen bilden, ob direkt integriert wie bei
+macOS, nachgebildet wie bei Linux oder teilweise emuliert wie bei Windows.
