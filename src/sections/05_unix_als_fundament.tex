@@ -1,4 +1,53 @@
 \section{UNIX als Fundament moderner Betriebssysteme}
+
+UNIX ist mehr als nur ein historisches Betriebssystem, es bildet die Grundlage vieler moderner Systeme und beeinflusst bis heute deren Architektur, Konzepte und
+Philosophie. In diesem Kapitel werden drei bedeutende Betriebssysteme betrachtetet, nämlich Linux, macOS und Windows, mit Fokus auf ihren Bezug zu UNIX.
+Dabei werden sowohl Gemeinsamkeiten als auch Unterschiede analysiert. Neben wissenschaftlicher Literatur fliessen Aussagen aus dem Interview mit Herrn
+von Niederhäusern ein, der als Systemadministrator und Dozent für das Modul \glqq Computing Infrastructure\grqq \ tätig ist.
+
+
 \subsection{Linux: Ein UNIX-like System}
+
+Linux ist kein direktes Derivat von UNIX, sondern ein sogenanntes UNIX-like System. Es wurde Anfang der 1990er Jahren von Linus Torvalds als freies Betriebssystem
+entwickelt und orientiert sich stark an den Prinzipien und der Struktur klassischer UNIX-Systeme wie BSD und System V. \cite{ModernOS}
+
+Wie Tanenbaum \& Bos beschrieben, übernimmt Linux zentrale UNIX-Konzepte wie das Dateisystem Hierarchiemodell, die Rechteverwaltung, die Interprozesskommunikation
+(IPC) und di eNutzung von Textdateien zu Systemkonfiguration \cite{ModernOS}. Auch das Prinzip \glqq Everything is a File\grqq \ gilt nahezu uneingeschränkt
+\cite{ArtOfUnixProgramming}.
+
+Herr von Niederhäusern betonte: %! Zitat
+
+Ein grosser Unterschied liegt in der Lizenzierung. Während klassische UNIX-Systeme proprietär waren, ist Linux unter der GNU General Public License (GPL)
+frei verfügbar und wird gemeinschaftlich weiterentwickelt. Dennoch wurde Linux so konzipiert, dass es weitgehend POSIX-kompatibel ist, ein UNIX-Standard zur
+Probabilität von Anwendungen \cite{OSConcept}.
+
+
 \subsection{macOS: Ein UNIX-System}
+
+macOS ist ein zertifiziertes UNIX-System (seit Version 10.5 \glqq Leopard\grqq), das auf dem Darwin-Kernel basiert. Darwin wiederum vereint Komponenten von BSD,
+insbesondere FreeBDS, mit dem mach-Mikrokernel \cite{FreeBSDOS}. Dadurch ist macOS technisch gesehen näher an UNIX als Linux.
+
+Laut Apple erfüllt macOS die Anforderungen der Single UNIX Specification (SUS), wodurch es sich offiziell als UNIX-System bezeichnen darf. Für Entwickler bedeutet
+das viele auf UNIX basierende Werkzeuge und Skripte nativ funktionieren, was macOS zu einer beliebten Plattform für Softwareentwicklung macht \cite{OSConcept}.
+
+Herr von Niederhäusern erklärte dazu: %! Zitat
+
+macOS integriert die UNIX-Basis in eine moderne, grafische Benutzeroberfläche. Dies zeigt, wie UNIX-Konzepte auch in einem kommerziellen Mainstream-System überleben
+und weiterentwickelt werden können \cite{FreeBSDOS}.
+
+
+\newpage
 \subsection{Windows: UNIX-Elemente in einem nicht-UNIX-System}
+
+Microsoft Windows basiert historisch nicht auf UNIX, sondern entwickelte sich aus MS-DOS. Dennoch hat WWindows im Laufe der Zeit zahlreiche UNIX-ähnliche Elemente
+übernommen, primär im Server- und Entwicklerbereich \cite{ModernOS}.
+
+Ein Beispiel ist das Windows Subsystem for Linux (WSL), das seit Windows 10 verfügbar ist. Es erlaubt die native Ausführung von Linux Distributionen unter Windows,
+inklusive Zugriff auf Bash, SSH, Git und andere UNIX-Tools \cite{WSL}. Das macht Windows für Entwickler attraktiver, die bisher UNIX-Umgebungen bevorzugt haben.
+
+Zudem implementiert Windows zunehmend POSIX-nahe Schnittstellen, allerdings nicht vollständig. Herr von Niederhäusern wies darauf hin: \glqq Windows hat viele gute
+Tools aus der UNIX-Welt kopiert oder emuliert, aber es fühlt sich nie ganz gleich an\grqq \cite{interviewNH}.
+
+Auch Systemdienste wie Prozess- und Speicherverwaltung folgen einem anderen Design. Dennoch zeigen Entwicklungen wie Windows Terminal oder native OpenSSH
+Unterstützung die zunehmende Annäherung an UNIX-Paradigmen, getrieben von den Anforderungen moderner Softwareentwicklung und Cloud-Infrastrukturen
+\cite{ArtOfUnixProgramming, OSConcept}.
