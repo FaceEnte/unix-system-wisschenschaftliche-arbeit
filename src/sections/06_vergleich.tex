@@ -1,6 +1,6 @@
 \section{Vergleich der UNIX-Anteile in modernen Betriebssysteme}
 
-Diese Kapitel untersucht die Gemeinsamkeiten und Unterschiede moderner Betriebssysteme in Bezug auf ihre UNIX-Bestandteile. Dabei liegt der Fokkus auf der
+Diese Kapitel untersucht die Gemeinsamkeiten und Unterschiede moderner Betriebssysteme in Bezug auf ihre UNIX-Bestandteile. Dabei liegt der Fokus auf der
 Systemarchitektur, der Entwicklungsmethodik, sowie der praktischen Relevanz für Entwicklerinnen und Entwickler. Grundlage für diese Analyse bilden Fachliteraturen
 und ein Interview mit Herrn von Niederhäusern \cite{interviewNH}.
 
@@ -11,16 +11,19 @@ Obwohl Linux, macOS und Windows unterschiedliche Wurzen haben, lassen sich insbe
 UNIX-Erbe zurückzuführen sind. Beide Systeme unterstützen POSIX-Standards, verfügen über eine Shell-Umgebung, bieten weitgehende Kompatibilität mit UNIX-Tools und
 setzen auf das Prinzip \glqq Everything is a File\grqq \ \cite{ArtOfUnixProgramming, ModernOS, OSConcept}.
 
-macOS besitzt als zertifiziertes UNIX-System die enste technische Verbindung zur UNIX-Philosophie \cite{FreeBSDOS}. Es basiert auf BSD, einem klassichen
+macOS besitzt als zertifiziertes UNIX-System die engste technische Verbindung zur UNIX-Philosophie \cite{FreeBSDOS}. Es basiert auf BSD, einem klassischen
 UNIX-Derivate, und implementiert standardisierte UNIX-Schnittstellen vollständig. Linux hingegen ist nicht zertifiziert, erfüllt aber in der Praxis viele der
-gleichen Anforderungen und ist hochradig kompatibel mit UNIX-Anwendungen \cite{ModernOS, OSConcept}.
+gleichen Anforderungen und ist hochgradig kompatibel mit UNIX-Anwendungen \cite{ModernOS, OSConcept}.
 
 Windows stellt hingegen eine Sonderrolle dar, es ist weder UNIX-basiert noch vollständig POSIX-konform. Trotzdem hat Microsoft viele Elemente aus der UNIX-Welt
 übernommen, beispielsweise mit dem Windows Subsystem for Linux, das es ermöglicht, native Linux Binaries unter Windows auszuführen \cite{WSL}. Auch Werkzeuge
-wie Git Bash, Windows Terminal und die PowerShell zeigen die Annäherung an UNIX-Konzepte. Dennoch bleibt das zugrunde liegende Systemdesing stark unterschiedlich,
+wie Git Bash, Windows Terminal und die PowerShell zeigen die Annäherung an UNIX-Konzepte. Dennoch bleibt das zugrunde liegende Systemdesign stark unterschiedlich,
 etwa in der Nutzung der Registry statt Konfigurationsdateien oder dem Fehlen eines nativen Paketmanagers \cite{interviewNH}.
 
-Herr von Niederhäusern beschreibt die Situation folgendermassen: %! Zitat
+Herr von Niederhäusern beschreibt die Situation folgendermassen: \glqq Von dem her probiert jetzt Windows so ein bisschen die ganzen Philosophien miteinander zu
+verheiraten, aber dann sieht man, dass sich das Konzept so eigentlich bewährt hat oder, eben für moderne Betriebssysteme, mit einem Betriebssysteme auf dieser
+Ebene zu kommunizieren. [\ldots] Das ist natürlich das Windows Subsystem schon sehr eine gute Alternative muss ich sagen. Vor allem jetzt die zweite version, bin ich
+auch recht ein Fan davon \grqq \ \cite{interviewNH}.
 
 
 \subsection{Einfluss auf Systemarchitekturen und Softwareentwicklung}
@@ -34,10 +37,10 @@ Prinzipien.
 
 Windows verfolgt traditionell einen stärker integrierten, GUI zentrierten Ansatz. Die Entwicklung der PowerShell und die Integration von WSL zeigen jedoch, dass
 auch hier zunehmend UNIX-artige Denkweisen einfliessen \cite{WSL, OSConcept}. Für die Softwareentwicklung bedeutet das eine grössere Vereinheitlichung über
-Plattformen hinweg. Entwickler nutzen heute plattformübergreifend Werkzeuge wie Git, Docker oder VSCode, alle stakr beeinflusst von UNIX-Standards.
+Plattformen hinweg. Entwickler nutzen heute plattformübergreifend Werkzeuge wie Git, Docker oder VSCode, alle stark beeinflusst von UNIX-Standards.
 
 Auch Herr von Niederhäusern unterstreicht diesen Wandel: \glqq Die Trennung der Welten ist vorbei. Ich sehe Entwickler, die unter Windows mit WSL und Docker
-arbeiten und andere die auf dem Mac native UNIX-Tools einsetzten. UNIX ist nicht ott, es ist überall, in verschiedenen Gewändern\grqq \ \cite{interviewNH}.
+arbeiten und andere die auf dem Mac native UNIX-Tools einsetzten. UNIX ist nicht tot, es ist überall, in verschiedenen Gewändern\grqq \ \cite{interviewNH}.
 
-Zusammenfassend lässt sich sagen, dass UNIX-Anteile heute die Basis für viele essentielle Konzepte in moderner Betriebssystemen bilden, ob direkt integriert wie bei
+Zusammenfassend lässt sich sagen, dass UNIX-Anteile heute die Basis für viele essenzielle Konzepte in moderner Betriebssystemen bilden, ob direkt integriert wie bei
 macOS, nachgebildet wie bei Linux oder teilweise emuliert wie bei Windows.
