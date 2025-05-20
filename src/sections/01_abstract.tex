@@ -3,3 +3,38 @@
 
 % Document
 \section{Abstract}
+
+Die vorliegende Arbeit befasst sich mit der Relevanz und dem Einfluss des UNIX-Betriebssystems auf moderne Betriebssysteme. UNIX wurde in den 1970er Jahren
+entwickelt und zeichnet sich durch Prinzipien wie Modularität, Portabilität, einfache Schnittstellen sowie das Paradigma \glqq Everything is a File\grqq \ aus
+\cite{ArtOfUnixProgramming, ModernOS}. Diese Eigenschaften haben sich als so grundlegend erwiesen, dass sie in vielen heute verbreiteten
+Betriebssystemen weiterhin erkennbar sind, etwa in direkter Form wie bei macOS, in adaptierter Weise wie bei Linux oder als einzelne Elemente in ursprünglich
+UNIX-fremden Systemen wie Microsoft Windows \cite{ModernOS, WSL, OSConcept}. Ziel der Arbeit ist es, aufzuzeigen, in welchen Bereichen UNIX-Prinzipien bis
+heute technologische und konzeptionelle Wirkung entfalten und wo sich im Laufe der Zeit alternative Ansätze durchgesetzt haben.
+
+Die Untersuchung kombiniert theoretische Analyse mit praxisnaher Perspektive. Einerseits wurde umfangreiche Fachliteratur zu UNIX,
+Betriebssystemarchitekturen und modernen Systemen ausgewertet, darunter Werke von Raymond, Tanenbaum, Silberschatz und McKusick
+\cite{ArtOfUnixProgramming, ModernOS, FreeBSDOS, OSConcept}.
+
+Andererseits wurde ein Experteninterview mit Herrn von Niederhäusern geführt, einem erfahrenen Systemadministrator und Linux Nutzer, um theoretische Erkenntnisse
+mit praktischen Einschätzungen zu ergänzen \cite{interviewNH}. Der methodische Ansatz vergleicht Linux, macOS und Windows entlang von Kriterien wie Modularität,
+POSIX-Kompatibilität, Kommandozeilenunterstützung und Toolphilosophie.
+
+Die Analyse zeigt, dass Linux als UNIX-like System viele klassische UNIX-Konzepte übernommen und weiterentwickelt hat. Es ist zwar kein direktes
+Derivat, setzt jedoch auf zentrale Prinzipien wie Dateisystemdesign, Nutzerverwaltung und Interprozesskommunikation \cite{ModernOS, OSConcept}. macOS ist ein
+zertifiziertes UNIX-System, basiert auf dem BSD Zweig und Mach-Kernel und kombiniert technische Nähe zu UNIX mit moderner Benutzerfreundlichkeit
+\cite{FreeBSDOS, OSConcept}. Windows hingegen nutzt mit dem Windows Subsystem for Linux eine Emulationsschicht, um UNIX-Funktionalität bereitzustellen
+\cite{WSL, interviewNH}.
+
+Gleichzeitig zeigen sich deutliche Unterschiede. Besonders Windows unterscheidet sich durch seine Architektur und geringere CLI-Orientierung. Dennoch ist ein
+klarer Trend zur Modularisierung und Automatisierung erkennbar, wie sie im UNIX-Umfeld etabliert sind \cite{ArtOfUnixProgramming, interviewNH}. Diese Prinzipien
+gewinnen insbesondere in Cloud Computing, DevOps und Containerisierung an Bedeutung, wo UNIX-nahe Systeme wie Linux dominieren
+\cite{ModernOS, OSConcept, interviewNH}.
+
+Die Ergebnisse verdeutlichen, dass UNIX bis heute die Grundlage vieler zentraler IT-Konzepte bildet. In Serverlandschaften, Softwareentwicklung, Cloud- und
+Edge-Infrastrukturen bleiben UNIX-basierte Systeme prägend. Auch zukünftige Entwicklungen wie Containerisierung oder maschinelles Lernen bauen auf modularen,
+skalierbaren Konzepten auf \cite{ArtOfUnixProgramming, ModernOS, interviewNH}. Der im Interview betonte hohe Stellenwert der Modularität bestätigt diese Tendenz
+\cite{interviewNH}.
+
+Abschliessend lässt sich festhalten, dass UNIX weiterhin eine tragende Rolle in der Informatik spielt. Ob durch direkte Nachfolger wie macOS, offene Systeme wie
+Linux oder hybride Ansätze wie WSL, die UNIX-Philosophie lebt in vielfältiger Form weiter und bleibt technologisch wie konzeptionell hochrelevant
+\cite{ArtOfUnixProgramming, interviewNH}.

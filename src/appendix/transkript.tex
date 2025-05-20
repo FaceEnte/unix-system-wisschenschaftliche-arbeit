@@ -8,6 +8,7 @@
 \newlength{\transcriptlen}
 \NewDocumentCommand {\setspeaker} { mo }{%
   \IfNoValueTF{#2}
+  {\expandafter\newcommand\csname#1\endcsname{\item[#1:]}}%
   {\expandafter\newcommand\csname#1\endcsname{\item[#2:]}}%
   \IfNoValueTF{#2}
   {\settowidth{\transcriptlen}{#1}}%
