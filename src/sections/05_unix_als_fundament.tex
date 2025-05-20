@@ -12,10 +12,12 @@ Linux ist kein direktes Derivat von UNIX, sondern ein sogenanntes UNIX-like Syst
 entwickelt und orientiert sich stark an den Prinzipien und der Struktur klassischer UNIX-Systeme wie BSD und System V. \cite{ModernOS}
 
 Wie Tanenbaum \& Bos beschrieben, übernimmt Linux zentrale UNIX-Konzepte wie das Dateisystem Hierarchiemodell, die Rechteverwaltung, die Interprozesskommunikation
-(IPC) und di eNutzung von Textdateien zu Systemkonfiguration \cite{ModernOS}. Auch das Prinzip \glqq Everything is a File\grqq \ gilt nahezu uneingeschränkt
+(IPC) und die Nutzung von Textdateien zu Systemkonfiguration \cite{ModernOS}. Auch das Prinzip \glqq Everything is a File\grqq \ gilt nahezu uneingeschränkt
 \cite{ArtOfUnixProgramming}.
 
-Herr von Niederhäusern betonte: %! Zitat
+Herr von Niederhäusern betonte: \glqq Ja, also Linux hat es sehr konsequent umgesetzt. Ausser einfach eben auf der Ebene Kernel wahrscheinlich. Dort gibt es
+unterschiedliche Ansätze, eben ein monolithischer Kernel, das ist technisch versus einen dynamischen Kernel, dort gibt es sicher Unterschiede\grqq \
+\cite{interviewNH}.
 
 Ein grosser Unterschied liegt in der Lizenzierung. Während klassische UNIX-Systeme proprietär waren, ist Linux unter der GNU General Public License (GPL)
 frei verfügbar und wird gemeinschaftlich weiterentwickelt. Dennoch wurde Linux so konzipiert, dass es weitgehend POSIX-kompatibel ist, ein UNIX-Standard zur
@@ -30,7 +32,9 @@ insbesondere FreeBDS, mit dem mach-Mikrokernel \cite{FreeBSDOS}. Dadurch ist mac
 Laut Apple erfüllt macOS die Anforderungen der Single UNIX Specification (SUS), wodurch es sich offiziell als UNIX-System bezeichnen darf. Für Entwickler bedeutet
 das viele auf UNIX basierende Werkzeuge und Skripte nativ funktionieren, was macOS zu einer beliebten Plattform für Softwareentwicklung macht \cite{OSConcept}.
 
-Herr von Niederhäusern erklärte dazu: %! Zitat
+Herr von Niederhäusern erklärte dazu: \glqq Also sagen wir man macOS hat so ein bisschen die Tendenz den User vor dem Computer zu schützen, also von dem her hat
+man eigentlich das recht gute Aqua GUI, also einfach die ganze Quarz Rendering Engine und ein User muss sich nie mit UNIX auseinandersetzten auf Mac, wenn er das
+nicht will. Von dem ist es dann sehr konsequent und sehr gut eigentlich gelöst, also am besten im Prinzip\grqq \ \cite{interviewNH}.
 
 macOS integriert die UNIX-Basis in eine moderne, grafische Benutzeroberfläche. Dies zeigt, wie UNIX-Konzepte auch in einem kommerziellen Mainstream-System überleben
 und weiterentwickelt werden können \cite{FreeBSDOS}.
